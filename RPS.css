@@ -5,14 +5,27 @@
 }
 
 body {
-    background: #000;
+    background: #fff;
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.player-choice-box {
-    border: 2px solid black
+
+#container {
+    width: 50%;
+    height: 50%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background: #000;
+    overflow: hidden;
 }
